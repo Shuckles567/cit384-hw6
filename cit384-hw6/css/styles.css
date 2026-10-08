@@ -1,0 +1,74 @@
+/* Color Palette
+#78503a - Muted Mahogany Brown
+#899480 - Muted Olive Green
+#c4bd8b - Khaki
+#8faab3 - Light Blue-Gray
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background-color: #899480; 
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 0 auto;
+}
+
+header, section, footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.work, .education {
+    display: flow-root;
+}
+a {
+    color: #1703f4;
+    text-decoration: none;
+}
+a:hover {
+    color:#800020;
+    text-decoration: underline;
+}
+/* Header & Footer 
+------------------------------------*/
+h1, h2, h3 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer {
+    background-color: #c4bd8b;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Work Experience
+------------------------------------*/
+.work{
+    background-color: #8faab3;
+}
+
+
+/* Education
+------------------------------------*/
+
+.education{
+    background-color: #78503a;
+}
